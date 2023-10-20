@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+
+  .welcome {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+
+  .animated-text {
+    font-size: 36px;
+    animation: fadeIn 2s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+<title>Welcome</title>
+</head>
+<body>
+  <div class="welcome">
+    <h1 class="animated-text">Welcome to Our Website!</h1>
+  </div>
+</body>
+</html>
